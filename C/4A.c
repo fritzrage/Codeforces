@@ -4,6 +4,9 @@ int main()
 {
     int a=0;
     scanf("%d",&a); 
+    if(a<1 || a>100)
+    {}
+    else{
     if(a%2==0)
     {
 	printf("YES");
@@ -12,4 +15,5 @@ int main()
     {
 	printf("NO");
     }
+  }
 }
