@@ -6,6 +6,10 @@ int main()
     scanf("%d",&a); 
     if(a<1 || a>100)
     {}
+    else if(a==2)
+{
+	printf("NO");
+}
     else{
     if(a%2==0)
     {
